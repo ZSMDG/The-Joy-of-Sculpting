@@ -10,14 +10,27 @@
 /* general styles */
 body {
     font-family: 'merriweather', serif;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2 {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 /* Header */
 header {
+    background-color: red;
+    width: 100%;
+}
+
+#menu {
+    font-size: 110%;
+}
+
+/* Nav */
+
+nav {
     background-color: red;
     width: 100%;
 }
