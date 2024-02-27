@@ -81,7 +81,7 @@ main {
 /* footer */
 
 footer {
-    background-color: red;
+    background-color: white;
     width: 100%;
     background: url("../images/banner.webp") no-repeat center center/cover;
     text-align: center;
@@ -105,5 +105,9 @@ footer ul{
     padding: 10px 5px;
     font-size: .80em;
   }
+
+#social-networks {
+    font-size: 200%;
+}
 
 
