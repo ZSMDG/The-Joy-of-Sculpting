@@ -34,7 +34,31 @@
     <main>
         <section>
             <form action="form-return.html" method="get">
-                <button type="submit" class="submit-button">submit</button>
+                <div>
+                    <h3>Please contact me if you have any questions!</h3>
+                </div>
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name" class="text-input" required/>
+                    <label for="email_address">Email Address</label>
+                    <input type="email" id="email_address" name="email_address" class="text-input" required />
+                </div>
+                <h3>Have you sculpted before?</h3>
+                <div id="radio-buttons">
+                    <label for="a-lot">A lot</label>
+                    <input type="radio" name="sculpting" id="a-lot" value="a-lot" checked required>
+
+                    <label for="a-little">A little</label>
+                    <input type="radio" name="sculpting" id="a-little" value="a-little" required>
+
+                    <label for="have-never">I have never sculpted before</label>
+                    <input type="radio" name="sculpting" id="have-never" value="have-never" required>
+                </div>
+                <div id="question">
+                    <label for="text-field">Please ask me a question below</label>
+                    <textarea name="text-field" id="text-field" cols="30" rows="10" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send!</button>
             </form>
         </section>
     </main>
