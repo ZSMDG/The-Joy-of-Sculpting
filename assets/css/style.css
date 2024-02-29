@@ -22,8 +22,7 @@ h1, h2, h3 {
 }
 
 p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1.5rem;
 }
 
 /* Header */
@@ -82,6 +81,28 @@ main {
 img {
     width: 300px;
     height: auto;
+}
+
+/* Form page */
+
+#name-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem
+}
+
+#radio-buttons {
+    margin: 3rem
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem
 }
 
 /* footer */
