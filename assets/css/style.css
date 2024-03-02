@@ -14,7 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    text-align: center;
+    text-align: left;
+    font-size: 150%
 }
 
 h1, h2, h3 {
@@ -35,7 +36,7 @@ header {
 
 h1 {
     padding-top: 2rem;
-    font-size: 300%
+    font-size: 200%
 }
 
 #menu {
@@ -156,7 +157,7 @@ footer ul{
   }
 
 #social-networks {
-    font-size: 200%;
+    font-size: 400%;
 }
 
 /* Media query: large or landscape phones (576px and up) */
