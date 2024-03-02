@@ -18,8 +18,11 @@ body {
     font-size: 150%
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-transform: capitalize;
+    text-align: center;
 }
 
 p {
@@ -47,26 +50,26 @@ h1 {
 
 nav {
     text-align: center;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
     padding: 10px 0;
-    }
-    
-    nav ul{
-      list-style: none;
-      margin: 0 2px;
-      padding: 0;
-    }
-    
-    nav li {
-       display: inline-block;
-       padding: 5px 5px;
-    }
-    
-    nav a {
-      font-weight: normal;
-      padding: 10px 5px;
-      font-size: .80em;
-    }
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 2px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+nav a {
+    font-weight: normal;
+    padding: 10px 5px;
+    font-size: .80em;
+}
 
 /* main content */
 
@@ -82,6 +85,9 @@ main {
 img {
     width: 300px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Back to top button */
@@ -100,11 +106,11 @@ img {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
+}
 
-  #myBtn:hover {
+#myBtn:hover {
     background-color: #555;
-  }
+}
 
 /* Form page */
 
@@ -135,26 +141,26 @@ footer {
     width: 100%;
     background: url("../images/banner.webp") no-repeat center center/cover;
     text-align: center;
-    margin: 20px 0 0 ;
+    margin: 20px 0 0;
     padding: 10px 0;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     margin: 0 2px;
     padding: 0;
-  }
-  
-  footer li {
-     display: inline-block;
-     padding: 5px 5px;
-  }
-  
-  footer a {
+}
+
+footer li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+footer a {
     font-weight: normal;
     padding: 10px 5px;
     font-size: .80em;
-  }
+}
 
 #social-networks {
     font-size: 400%;
