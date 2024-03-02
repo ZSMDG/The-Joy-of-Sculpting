@@ -15,7 +15,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: left;
-    font-size: 150%
 }
 
 h1,
@@ -83,7 +82,7 @@ main {
 }
 
 img {
-    width: 300px;
+    width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
@@ -163,19 +162,27 @@ footer a {
 }
 
 #social-networks {
-    font-size: 400%;
+    font-size: 200%;
 }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     img {
-        width: 550px;
+        width: 80%;
+    }
+
+    main {
+        margin: 47px 20% 0;
+    }
+
+    body {
+        font-size: 150%
     }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     img {
-        width: 650px;
+        width: 60%;
     }
 }
