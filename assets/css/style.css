@@ -29,6 +29,14 @@ h3 {
     text-align: center;
 }
 
+h2 {
+    padding-bottom: 30px;
+}
+
+h3 {
+    padding-bottom: 30px;
+}
+
 p {
     margin: 1.5rem;
 }
