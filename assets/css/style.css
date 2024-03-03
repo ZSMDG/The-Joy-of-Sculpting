@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     text-align: left;
+    align-items: center;
 }
 
 h1,
@@ -118,11 +119,12 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem
+    margin: 3rem;
 }
 
 #radio-buttons {
-    margin: 3rem
+    margin: 3rem;
+    align-items: center;
 }
 
 #question {
@@ -130,7 +132,18 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 3rem
+    margin: 3rem;
+}
+
+#submit-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+    font-size: 150%;
 }
 
 /* footer */
