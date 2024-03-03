@@ -18,6 +18,10 @@ body {
     align-items: center;
 }
 
+body, nav {
+    background-image: linear-gradient(to right,slategray, white, slategray);
+}
+
 h1,
 h2,
 h3 {
@@ -33,12 +37,12 @@ p {
 header {
     background-color: white;
     width: 100%;
-    background: url("../images/banner.webp") no-repeat center center/cover;
     text-align: center;
 }
 
 h1 {
-    padding-top: 2rem;
+    padding: 2rem;
+    background: url("../images/banner.webp") no-repeat center center/cover;
     font-size: 200%
 }
 
@@ -50,7 +54,6 @@ h1 {
 
 nav {
     text-align: center;
-    margin: 20px 0 0;
     padding: 10px 0;
 }
 
