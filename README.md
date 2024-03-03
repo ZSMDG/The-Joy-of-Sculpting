@@ -65,3 +65,26 @@ This section also provides tips on how to easily knead clay, as well as informat
 - __Thank you page__
 
 - provides the user with a message that informs them that their question has been received.
+
+### testing
+
+Below is a table of the various links and their expected behaviour and if they execute that behaviour.
+
+| Section                 | Behaviour                  | Fail | Pass |
+|-------------------------|----------------------------|------|------|
+| nav materials           | Go to materials section    |      | X    |
+| nav tools               | Go to tools section        |      | X    |
+| nav motivation          | Go to motivation section   |      | X    |
+| nav contact             | Go to the contact page     |      | X    |
+| contact page nav home   | Go to main page            |      | X    |
+| thank you page nav home | Go to main page            |      | X    |
+| footer facebook icon    | open facebook in new tab   |      | X    |
+| footer X(twitter) icon  | open X(twitter) in new tab |      | X    |
+| footer instagram icon   | open instagram in new tab  |      | X    |
+| footer youtube icon     | open youtube in new tab    |      | X    |
+
+Each entry on the contact page is required and was tested by attempting to submit the form without entering anything in each field, or in the case of the email field, an entry with an "@" is required. The send button should take the user to the “Thank You” page after all fields have valid information in them, and it does. Responsiveness was tested in dev tools and on various devices and screen sizes mobile, desktop, TV.
+
+The site was also tested with Lighthouse to ensure accessibility
+
+![Lighthose score](assets/images/readme-images/Lighthouse.png)
