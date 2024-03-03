@@ -50,6 +50,10 @@ h1 {
     font-size: 200%
 }
 
+.hidden {
+    display: none;
+}
+
 /* making the "of" in the h1 on the index.html lowercase */
 
 #lowercase {
