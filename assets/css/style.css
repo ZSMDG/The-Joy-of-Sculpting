@@ -215,6 +215,10 @@ footer a {
     body {
         font-size: 150%
     }
+
+    #social-networks {
+        font-size: 400%;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
