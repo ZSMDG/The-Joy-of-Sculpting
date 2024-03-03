@@ -119,6 +119,7 @@ The code for the back-to-top button was taken from https://www.w3schools.com/how
 How to center images was taken from https://www.w3schools.com/howto/howto_css_image_center.asp
 How to create gradients was taken from here https://blog.hubspot.com/website/change-background-color-html?hubs_content=blog.hubspot.com%2Fwebsite%2Fopacity-css&hubs_content-cta=here
 How to create the footer was taken from the Love Running project.
+Various other code snipets was taken from the Love Running project.
 The icons in the footer were taken from https://fontawesome.com
 
 ### Media
