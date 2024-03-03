@@ -108,3 +108,19 @@ From the source section drop-down menu, select the Master Branch
 Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - https://zsmdg.github.io/The-Joy-of-Sculpting/
+
+## Credits
+
+### Content
+
+All the text was written by me.
+How to style the nav was taken from https://teamtreehouse.com/community/how-to-space-out-links-across-the-nav-bar
+The code for the back-to-top button was taken from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+How to center images was taken from https://www.w3schools.com/howto/howto_css_image_center.asp
+How to create gradients was taken from here https://blog.hubspot.com/website/change-background-color-html?hubs_content=blog.hubspot.com%2Fwebsite%2Fopacity-css&hubs_content-cta=here
+How to create the footer was taken from the Love Running project.
+The icons in the footer were taken from https://fontawesome.com
+
+### Media
+
+The photos on the site were taken by me.
