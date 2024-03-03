@@ -138,8 +138,11 @@ img {
 }
 
 #radio-buttons {
+    display: flex;
     margin: 3rem;
     align-items: center;
+    justify-content: space-between;
+
 }
 
 #question {
