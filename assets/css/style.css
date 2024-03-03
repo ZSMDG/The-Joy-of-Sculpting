@@ -46,6 +46,12 @@ h1 {
     font-size: 200%
 }
 
+/* making the "of" in the h1 on the index.html lowercase */
+
+#lowercase {
+    text-transform: lowercase;
+}
+
 #menu {
     font-size: 110%;
 }
