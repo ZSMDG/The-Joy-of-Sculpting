@@ -91,6 +91,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 4px;
 }
 
 /* Back to top button */
@@ -144,9 +145,15 @@ img {
     justify-content: center;
     align-items: center;
     margin: auto;
-    width: 5rem;
+    width: 10rem;
     height: 5rem;
     font-size: 150%;
+}
+
+/* Form return page */
+
+#thank-you {
+    text-align: center;
 }
 
 /* footer */
