@@ -47,7 +47,7 @@ This section also provides tips on how to easily knead clay, as well as informat
 
 - __Footer__
 
-- The footer provides links to various social media sites for The Joy of Sculpting. The links will open a new tab.
+ - The footer provides links to various social media sites for The Joy of Sculpting. The links will open a new tab.
 
 - __Back to top button__
 
@@ -66,7 +66,7 @@ This section also provides tips on how to easily knead clay, as well as informat
 
 - provides the user with a message that informs them that their question has been received.
 
-### testing
+## testing
 
 Below is a table of the various links and their expected behaviour and if they execute that behaviour.
 
@@ -88,3 +88,23 @@ Each entry on the contact page is required and was tested by attempting to submi
 The site was also tested with Lighthouse to ensure accessibility
 
 ![Lighthose score](assets/images/readme-images/Lighthouse.png)
+
+- __Bugs__
+
+ - Nothing I encountered can be considered bugs
+
+### Validator Testing
+
+- HTML
+ - No errors were returned when passing through the official W3C HTML validator
+- CSS
+ - No errors were found when passing through the official W3C CSS validator
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://zsmdg.github.io/The-Joy-of-Sculpting/
